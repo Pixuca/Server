@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='/static/style.css'/>
+    <title>Página de uploads</title>
+  </head>
+
+  <body>
+      <form method="post" enctype="multipart/form-data">
+          <input type="file" name="files[]" multiple>
+          <input type="submit" value="Upload File" name="submit">
+      </form>
+
+  	<script src="upload.js"></script>
+  </body>
+</html>
