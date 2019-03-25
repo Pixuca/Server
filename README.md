@@ -8,7 +8,7 @@
 
 4. Descobrir qual o seu IP local pelo cmd (ipconfig) (o endereço certo é o IPV4 Address).
 
-  4.1 Editar a linha 6 do arquivo 'app.py' 'UPLOAD_FOLDER', com o caminho para a pasta upload do seu computador, caso não seja feito
+  4.1 Editar a linha 6 do arquivo 'app.py' ('UPLOAD_FOLDER'), com o caminho para a pasta upload do seu computador, caso não seja feito
   o código retornará um erro de arquivo não encontrado.
     
     4.1.2 Copiar o endereço pelo explorer do Windows faz com que as barras fiquem invertidas, é necessário substituir para as barras
